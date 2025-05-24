@@ -22,6 +22,7 @@ The AI uses simple strategies:
 Put the first 'O' on random cell in the whole map.
 First block four in a row if they were arranged in order.
 Then block three in a row if they were arranged in order.
+(If the player does not extend a blocked three-mark line into four, the AI will temporarily not block it.)
 Otherwise, place marks near its existing 'O's or random empty spots.
 
 4. Features
