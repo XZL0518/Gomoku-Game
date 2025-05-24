@@ -15,7 +15,7 @@ def main():
             sleep(0.5)
             print('...') 
             sleep(0.5) 
-            coordinate = input('Enter (x y)(1-10): ').split()
+            coordinate = input('Enter (x y)(1-15): ').split()
 
             if len(coordinate) != 2:
                 print('Error: expected <x> <y>')
