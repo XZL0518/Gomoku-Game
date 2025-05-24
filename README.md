@@ -53,7 +53,7 @@ AI automatically plays after your move.
 
 Currently, the AI strategy is non-aggressive and algorithms can be further optimized to enhance the game's challenge and engagement.
 
-6. Code Structure
+5. Code Structure
 
 create_board.py: contains board creation, display, and AI logic.
 
