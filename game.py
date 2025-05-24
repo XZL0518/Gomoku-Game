@@ -2,7 +2,7 @@ import create_board
 from create_board import board
 from time import sleep
 
-bound = 10
+bound = 15
 def main():
     print('Let\'s start the game!')
     # waiting 1s
