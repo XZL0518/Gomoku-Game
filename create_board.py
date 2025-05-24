@@ -5,7 +5,7 @@ signal = None
 
 # create board
 board = []
-bound = 10
+bound = 15
 for i in range(bound):
     row = []
     for s in range(bound):    
@@ -39,6 +39,7 @@ def get_set(board, side):
 
 def check_gameover(board):
     if not get_set(board, '.'):
+        print('No one wins!')
         print("Game over.")
         return True
     else:
